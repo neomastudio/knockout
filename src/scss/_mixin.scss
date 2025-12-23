@@ -1,0 +1,61 @@
+@mixin rol {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: var(--font-open-sans);
+};
+@mixin stylePseudo{
+  content: "";
+  position: absolute;
+  width: 6%;
+  height: 6%;
+  background-color: transparent;
+  border: 3px solid var(--clr-red);
+  border-radius: 9999px;
+};
+@mixin styleP{
+  font-size: 1rem;
+  font-family: var(--font-open-sans);
+  font-weight: bold;
+  opacity: 0.7;
+  color: var(--clr-gray);
+  text-align: center;
+};
+@mixin styleDiv{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: #1212123a;
+};
+@mixin styleParent{
+  width: 15rem;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+};
+@mixin styleBtnMore{
+  width: 90px;
+  height: 30px;
+  background-color: var(--clr-red);
+  display: block;
+  text-align: center;
+  border-radius: 9999px;
+  margin: 2% auto 7% auto;
+  svg{
+    font-size: 1.6rem;
+    color: var(--clr-dark);
+  }
+  p{
+    font-size: 1rem !important;
+    color: var(--clr-dark) !important;
+    font-weight: bold;
+    font-family: var(--font-open-sans) !important;
+  }
+}
