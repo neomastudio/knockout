@@ -315,7 +315,7 @@ export default function Desktop() {
           <div className="col-md-6 d-flex justify-content-start align-items-end pb-5 ps-5">
             <span>
               {"\u00A9"} 2025 Knockout Boxing club . All Rights Reserved .<br />
-              <span>Designed & Developed by Mahsa - Neoma Studio</span>
+              <span>Designed & Developed by Neoma Studio</span>
             </span>
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-end pb-5 ps-5">

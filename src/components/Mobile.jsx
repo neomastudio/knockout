@@ -229,7 +229,7 @@ function Mobile() {
       <div className="footer-mobile" id="footer">
         <span>
           {"\u00A9"} 2025 Knockout Boxing club . All Rights Reserved .<br />
-          <span>Designed & Developed by Mahsa - Neoma Studio</span>
+          <span>Designed & Developed by Neoma Studio</span>
         </span>
         <span className="mb-4">Follow us :</span>
         <span
