@@ -125,7 +125,7 @@
             margin-top: 4%;
         }
         .pin{
-            background: url('/public/coach1.jfif') center/cover;
+            background: url('../assets/coach1.jfif') center/cover;
             margin-top: 12%;
             @include styleParent;
             div{
@@ -149,7 +149,7 @@
             left: 3%;
         }
         .doublePin{
-            background: url('/public/coach2.jfif') center/cover;
+            background: url('../assets/coach2.jfif') center/cover;
             margin-top: 5%;
             @include styleParent;
             div{

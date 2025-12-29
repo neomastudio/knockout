@@ -195,7 +195,7 @@ html {
   }
   .coaches-desk {
     background: linear-gradient(#12121267, #12121267),
-      url("/pic-background.png") center/cover;
+      url("../assets/pic-background.png") center/cover;
     width: 100%;
     padding: 20% 0%;
     .heading {
@@ -230,7 +230,7 @@ html {
     margin: 3% 0% 8% 0%;
   }
   .onePerson {
-    background: url("/coach1.jfif") center/cover;
+    background: url("../assets/coach1.jfif") center/cover;
     position: relative;
     margin-left: 68%;
   }
@@ -256,7 +256,7 @@ html {
     display: block;
   }
   .twoPerson {
-    background: url("/coach2.jfif") center/cover;
+    background: url("../assets/coach2.jfif") center/cover;
     position: relative;
     margin-left: 3%;
   }
@@ -312,7 +312,7 @@ html {
   }
   .footer-desk {
     background: linear-gradient(#12121298, #12121298),
-      url("/public/footer-photo.png") center/cover;
+      url("../assets/footer-photo.png") center/cover;
     margin-top: 12%;
     height: 40vh;
     background-repeat: no-repeat;

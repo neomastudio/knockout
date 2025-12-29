@@ -2,6 +2,14 @@ import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ArrowUpShort, Telegram, Whatsapp } from "react-bootstrap-icons";
 import { useEffect, useRef, useState } from "react";
+import club1 from '../assets/photo-club-one.jfif';
+import club2 from '../assets/photo-club-two.jfif';
+import club3 from '../assets/photo-club-three.jfif';
+import club4 from '../assets/photo-club-four.jpg';
+import beginner from '../assets/beginner-photo.jfif';
+import advanced from '../assets/Advanced-photo.jfif';
+import personal from '../assets/Personal-photo.jfif';
+import gloves from '../assets/boxing-gloves.png';
 
 function Mobile() {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,25 +70,25 @@ function Mobile() {
               <Carousel>
                 <Carousel.Item>
                   <img
-                    src="/photo-club-three.jfif"
+                    src={club3}
                     className="d-block w-100"
                   ></img>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="/photo-club-two.jfif"
+                    src={club2}
                     className="d-block w-100"
                   ></img>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="/photo-club-one.jfif"
+                    src={club1}
                     className="d-block w-100"
                   ></img>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="/photo-club-four.jpg"
+                    src={club4}
                     className="d-block w-100"
                   ></img>
                 </Carousel.Item>
@@ -118,7 +126,7 @@ function Mobile() {
           <div className="col-12" id="classes">
             <section>
               <div className="parent-classes-pic-sec">
-                <img src="/beginner-photo.jfif" alt="boxer" />
+                <img src={beginner} alt="boxer" />
               </div>
               <div className="parent-classes-para-sec">
                 <h2 id="headerClass" ref={(el) => (refs.current[0] = el)}>
@@ -134,7 +142,7 @@ function Mobile() {
           <div className="col-12">
             <section>
               <div className="parent-classes-pic-sec">
-                <img src="/Advanced-photo.jfif" alt="boxer" />
+                <img src={advanced} alt="boxer" />
               </div>
               <div className="parent-classes-para-sec">
                 <h2 id="headerClass" ref={(el) => (refs.current[1] = el)}>
@@ -151,7 +159,7 @@ function Mobile() {
           <div className="col-12">
             <section>
               <div className="parent-classes-pic-sec">
-                <img src="/Personal-photo.jfif" alt="boxer" />
+                <img src={personal} alt="boxer" />
               </div>
               <div className="parent-classes-para-sec">
                 <h2 id="headerClass" ref={(el) => (refs.current[2] = el)}>
@@ -218,7 +226,7 @@ function Mobile() {
           </div>
           <div className="col-12 d-flex justify-content-center">
             <img
-              src="boxing-gloves.png"
+              src={gloves}
               className="img-gloves"
               ref={(el) => (refs.current[9] = el)}
             />

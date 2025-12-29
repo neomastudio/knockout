@@ -1,27 +1,35 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ArrowUpShort, Telegram, Whatsapp } from "react-bootstrap-icons";
 import { useEffect, useRef, useState } from "react";
+import club1 from '../assets/photo-club-one.jfif';
+import club2 from '../assets/photo-club-two.jfif';
+import club3 from '../assets/photo-club-three.jfif';
+import club4 from '../assets/photo-club-four.jpg';
+import beginner from '../assets/beginner-photo.jfif';
+import advanced from '../assets/Advanced-photo.jfif';
+import personal from '../assets/Personal-photo.jfif';
+
 
 export default function Desktop() {
   const [activeItems, setActiveItems] = useState(null);
   const items = [
     {
-      img: "/photo-club-three.jfif",
+      img: club3,
       title: "Power",
       text: "Strength isn't in the punch - it's in the mind .",
     },
     {
-      img: "/photo-club-two.jfif",
+      img: club2,
       title: "Focus",
       text: "When I lock in , the whole world fades .",
     },
     {
-      img: "/photo-club-one.jfif",
+      img: club1,
       title: "Fight",
       text: "Every strike takes me closer to my better self.",
     },
     {
-      img: "/photo-club-four.jpg",
+      img: club4,
       title: "Rise",
       text: "I fall. I rise. That's what a fighter does .",
     },
@@ -147,7 +155,7 @@ export default function Desktop() {
           <div className="col-md-5">
             <div className="itemPhotoClasses ps-5 pe-0">
               <img
-                src="/beginner-photo.jfif"
+                src={beginner}
                 style={{
                   borderTop: " 4px solid var(--clr-red)",
                   borderLeft: "4px solid var(--clr-red)",
@@ -199,7 +207,7 @@ export default function Desktop() {
           <div className="col-md-5">
             <div className="itemPhotoClasses ps-0 pe-3">
               <img
-                src="/Advanced-photo.jfif"
+                src={advanced}
                 style={{ borderRight: "4px solid var(--clr-red)" }}
               />
             </div>
@@ -209,7 +217,7 @@ export default function Desktop() {
           <div className="col-md-5">
             <div className="itemPhotoClasses ps-5 pe-0">
               <img
-                src="/Personal-photo.jfif"
+                src={personal}
                 style={{
                   borderBottom: " 4px solid var(--clr-red)",
                   borderLeft: "4px solid var(--clr-red)",
